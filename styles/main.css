@@ -1,0 +1,62 @@
+.watch {
+  width: 500px;
+  height: 500px;
+  background-color: #c300ff;
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  border-radius: 50%; }
+
+.center {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  top: calc(50% - 21px);
+  left: calc(50% - 16px); }
+
+.biger__arrow {
+  height: 10px;
+  width: 250px;
+  background-color: #0059ff;
+  border-radius: 10px;
+  position: absolute;
+  top: calc(50% - 4px);
+  left: calc(50% - -2px);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-animation: arrow-rotate 60s linear infinite;
+          animation: arrow-rotate 60s linear infinite; }
+
+.smaller__arrow {
+  height: 10px;
+  width: 200px;
+  background-color: #ff006a;
+  border-radius: 10px;
+  position: absolute;
+  top: calc(50% - 4px);
+  left: calc(50% - -2px);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-animation: arrow-rotate 3600s linear infinite;
+          animation: arrow-rotate 3600s linear infinite; }
+
+@-webkit-keyframes arrow-rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes arrow-rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+/*# sourceMappingURL=main.css.map */
