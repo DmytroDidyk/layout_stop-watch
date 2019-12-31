@@ -1,47 +1,67 @@
 .watch {
   width: 500px;
   height: 500px;
-  background-color: #c300ff;
+  background-color: #fff;
+  border: 3px solid #000;
   position: absolute;
   top: 100px;
   left: 500px;
   border-radius: 50%; }
-
-.center {
-  width: 40px;
-  height: 40px;
-  background-color: black;
-  border-radius: 50%;
-  position: absolute;
-  z-index: 1;
-  top: calc(50% - 21px);
-  left: calc(50% - 16px); }
-
-.biger__arrow {
-  height: 10px;
-  width: 250px;
-  background-color: #0059ff;
-  border-radius: 10px;
-  position: absolute;
-  top: calc(50% - 4px);
-  left: calc(50% - -2px);
-  -webkit-transform-origin: 0 0;
-          transform-origin: 0 0;
-  -webkit-animation: arrow-rotate 60s linear infinite;
-          animation: arrow-rotate 60s linear infinite; }
-
-.smaller__arrow {
-  height: 10px;
-  width: 200px;
-  background-color: #ff006a;
-  border-radius: 10px;
-  position: absolute;
-  top: calc(50% - 4px);
-  left: calc(50% - -2px);
-  -webkit-transform-origin: 0 0;
-          transform-origin: 0 0;
-  -webkit-animation: arrow-rotate 3600s linear infinite;
-          animation: arrow-rotate 3600s linear infinite; }
+  .watch .center {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 21px);
+    left: calc(50% - 16px); }
+  .watch .biger__arrow {
+    height: 10px;
+    width: 250px;
+    background-color: #000;
+    border-radius: 10px;
+    position: absolute;
+    top: calc(50% - 0px);
+    left: calc(50% - 0px);
+    z-index: 1;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-animation: arrow-rotate 60s linear infinite;
+            animation: arrow-rotate 60s linear infinite; }
+  .watch .smaller__arrow {
+    height: 10px;
+    width: 200px;
+    background-color: #000;
+    border-radius: 10px;
+    position: absolute;
+    top: calc(50% - 0px);
+    left: calc(50% - 0px);
+    z-index: 1;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    -webkit-animation: arrow-rotate 3600s linear infinite;
+            animation: arrow-rotate 3600s linear infinite; }
+  .watch .twelve,
+  .watch .three,
+  .watch .six,
+  .watch .nine {
+    position: absolute;
+    font-weight: bold;
+    font-size: 42px;
+    color: #000; }
+  .watch .twelve {
+    top: 12px;
+    left: 228px; }
+  .watch .three {
+    top: 227px;
+    left: 464px; }
+  .watch .six {
+    top: 446px;
+    left: 237px; }
+  .watch .nine {
+    top: 227px;
+    left: 14px; }
 
 @-webkit-keyframes arrow-rotate {
   from {
