@@ -7,7 +7,7 @@
   top: 100px;
   left: 500px;
   border-radius: 50%; }
-  .watch .watch__center {
+  .watch__center {
     width: 40px;
     height: 40px;
     background-color: #000;
@@ -16,7 +16,7 @@
     z-index: 1;
     top: calc(50% - 21px);
     left: calc(50% - 16px); }
-  .watch .watch__bigerArrow {
+  .watch__bigerArrow {
     height: 10px;
     width: 250px;
     background-color: #000;
@@ -29,7 +29,7 @@
             transform-origin: 0 0;
     -webkit-animation: arrow-rotate 60s linear infinite;
             animation: arrow-rotate 60s linear infinite; }
-  .watch .watch__smallerArrow {
+  .watch__smallerArrow {
     height: 10px;
     width: 200px;
     background-color: #000;
@@ -42,24 +42,21 @@
             transform-origin: 0 0;
     -webkit-animation: arrow-rotate 3600s linear infinite;
             animation: arrow-rotate 3600s linear infinite; }
-  .watch .watch__twelve,
-  .watch .watch__three,
-  .watch .watch__six,
-  .watch .watch__nine {
+  .watch__twelve, .watch__three, .watch__six, .watch__nine {
     position: absolute;
     font-weight: bold;
     font-size: 42px;
     color: #000; }
-  .watch .watch__twelve {
+  .watch__twelve {
     top: 12px;
     left: 228px; }
-  .watch .watch__three {
+  .watch__three {
     top: 227px;
     left: 464px; }
-  .watch .watch__six {
+  .watch__six {
     top: 446px;
     left: 237px; }
-  .watch .watch__nine {
+  .watch__nine {
     top: 227px;
     left: 14px; }
 
