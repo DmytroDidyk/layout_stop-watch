@@ -7,7 +7,7 @@
   top: 100px;
   left: 500px;
   border-radius: 50%; }
-  .watch .center {
+  .watch .watch__center {
     width: 40px;
     height: 40px;
     background-color: #000;
@@ -16,65 +16,65 @@
     z-index: 1;
     top: calc(50% - 21px);
     left: calc(50% - 16px); }
-  .watch .biger__arrow {
+  .watch .watch__bigerArrow {
     height: 10px;
     width: 250px;
     background-color: #000;
     border-radius: 10px;
     position: absolute;
-    top: calc(50% - 0px);
-    left: calc(50% - 0px);
+    top: 50%;
+    left: 50%;
     z-index: 1;
     -webkit-transform-origin: 0 0;
             transform-origin: 0 0;
     -webkit-animation: arrow-rotate 60s linear infinite;
             animation: arrow-rotate 60s linear infinite; }
-  .watch .smaller__arrow {
+  .watch .watch__smallerArrow {
     height: 10px;
     width: 200px;
     background-color: #000;
     border-radius: 10px;
     position: absolute;
-    top: calc(50% - 0px);
-    left: calc(50% - 0px);
+    top: 50%;
+    left: 50%;
     z-index: 1;
     -webkit-transform-origin: 0 0;
             transform-origin: 0 0;
     -webkit-animation: arrow-rotate 3600s linear infinite;
             animation: arrow-rotate 3600s linear infinite; }
-  .watch .twelve,
-  .watch .three,
-  .watch .six,
-  .watch .nine {
+  .watch .watch__twelve,
+  .watch .watch__three,
+  .watch .watch__six,
+  .watch .watch__nine {
     position: absolute;
     font-weight: bold;
     font-size: 42px;
     color: #000; }
-  .watch .twelve {
+  .watch .watch__twelve {
     top: 12px;
     left: 228px; }
-  .watch .three {
+  .watch .watch__three {
     top: 227px;
     left: 464px; }
-  .watch .six {
+  .watch .watch__six {
     top: 446px;
     left: 237px; }
-  .watch .nine {
+  .watch .watch__nine {
     top: 227px;
     left: 14px; }
 
 @-webkit-keyframes arrow-rotate {
   from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
+    -webkit-transform: rotate(-91deg);
+            transform: rotate(-91deg); }
   to {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
 
 @keyframes arrow-rotate {
   from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
+    -webkit-transform: rotate(-91deg);
+            transform: rotate(-91deg); }
   to {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
